@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:background="@drawable/gredint"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/head"
+            android:gravity="center_horizontal"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:background="@color/yellow"
+            android:text="Gurukul School Bus Services"/>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.33"
+
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.50">
+
+
+                <ImageView
+                    android:id="@+id/school"
+                    android:layout_width="50in"
+                    android:layout_height="60pt"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/imagecircle"
+                    android:freezesText="true"
+                    android:gravity="center|bottom"
+                    android:paddingBottom="10dp"
+                    android:scaleType="centerInside"
+                    android:text="School"
+                    android:textAlignment="gravity"
+                    android:textSize="20dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/school"
+                    android:text="School"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:gravity="center"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.50">
+
+
+
+                <ImageView
+                    android:id="@+id/Hadcoo"
+                    android:layout_width="80in"
+                    android:layout_height="60pt"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/hudcoo"
+                    android:freezesText="true"
+                    android:gravity="center|bottom"
+                    android:paddingBottom="10dp"
+                    android:text="School"
+                    android:textAlignment="gravity"
+                    android:textSize="20dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Hadcoo"
+                    android:text="Hadcoo"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:gravity="center"/>
+
+
+            </RelativeLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.50">
+
+                <ImageView
+                    android:id="@+id/delhigate"
+                    android:layout_width="80in"
+                    android:layout_height="60pt"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/delhigate"
+                    android:freezesText="true"
+                    android:gravity="center|bottom"
+                    android:paddingBottom="10dp"
+                    android:text="School"
+                    android:textAlignment="gravity"
+                    android:textSize="20dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/delhigate"
+                    android:text="Delhi Gate"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:gravity="center"/>
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.50">
+
+
+                <ImageView
+                    android:id="@+id/collector"
+                    android:layout_width="80in"
+                    android:layout_height="60pt"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/collector"
+                    android:freezesText="true"
+                    android:gravity="center|bottom"
+                    android:paddingBottom="10dp"
+                    android:text="School"
+                    android:textAlignment="gravity"
+                    android:textSize="20dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/collector"
+                    android:text="Collector Office"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.50">
+
+                <ImageView
+                    android:id="@+id/jama"
+                    android:layout_width="80in"
+                    android:layout_height="60pt"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/jama"
+                    android:freezesText="true"
+                    android:gravity="center|bottom"
+                    android:paddingBottom="10dp"
+                    android:text="School"
+                    android:textAlignment="gravity"
+                    android:textSize="20dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/jama"
+                    android:text="Jama Masjid"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:gravity="center"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.50">
+
+                <ImageView
+                    android:id="@+id/hospital"
+                    android:layout_width="80in"
+                    android:layout_height="60pt"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/gov"
+                    android:freezesText="true"
+                    android:gravity="center|bottom"
+                    android:paddingBottom="10dp"
+                    android:text="School"
+                    android:textAlignment="gravity"
+                    android:textSize="20dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/hospital"
+                    android:text="Goverment Hospital"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:gravity="center"/>
+
+
+            </RelativeLayout>
+
+
+        </TableRow>
+
+
+
+    </TableLayout>
+</RelativeLayout>
